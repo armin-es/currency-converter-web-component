@@ -94,13 +94,19 @@ gulp.task('export', () => {
 });
 
 //Copy fonts
-gulp.task('copy', () => {
+gulp.task('copy-fonts', () => {
 	return gulp.src('./public/scss/fonts/*')
 		.pipe(gulp.dest('./public/dist/fonts/'));
 });
 
+//Copy shim
+gulp.task('copy-shim', () => {
+	return gulp.src('./public/js/native-shim.js')
+		.pipe(gulp.dest('./public/dist/'));
+});
+
 //Default
-gulp.task('default', ['copy', 'html', 'styles', 'scripts'], () => {
+gulp.task('default', ['copy-fonts', 'copy-shim', 'html', 'styles', 'scripts'], () => {
 	console.log("starting default task");
 });
 
