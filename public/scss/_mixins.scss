@@ -1,0 +1,4 @@
+@mixin import-font($name-string, $url-string) {
+    font-family: $name-string;
+    src: url($url-string);
+}
