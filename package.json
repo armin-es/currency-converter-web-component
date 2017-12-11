@@ -1,0 +1,33 @@
+{
+  "name": "currency-converter-web-component",
+  "version": "1.0.0",
+  "description": "Currency Converter Web Component",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Armin Eslami",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "express": "^4.16.2",
+    "normalize.css": "^7.0.0",
+    "webcomponents-lite": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-zip": "^4.0.0"
+  }
+}
