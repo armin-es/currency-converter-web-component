@@ -1,12 +1,11 @@
 # currency-converter-web-component
-Currency converter web component
 
 ### Description 
 
-A web page featuring three instances of the currency converter [web component](https://www.webcomponents.org/) working independently. The web component converts amounts from/to three currencies "CAD", "USD" and "EUR".
+A web page featuring three instances of the currency converter [web component](https://www.webcomponents.org/) (widget) working independently. The web component converts amounts from/to three currencies "CAD", "USD" and "EUR".
 
 ### APIs, frameworks and other tech
-- HTML5, SCSS, Vanilla JS
+- HTML5, SCSS, Vanilla JS (ES6)
 - Express JS: to run a dev server
 - Gulp JS: Task runner for Babel (transpiling ES6) and SCSS, minification and concatenation of CSS and JS files
 - Bootstrap 4: to style the web page hosting the web component
